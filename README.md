@@ -37,8 +37,8 @@ mysql_secure_installation
 *(Aquí pedirá, entre varias otras cosas, cambiar la contraseña del root)*  
 ![mariaDB](https://github.com/YoelGarciaLago/dockerEJ4/blob/main/Captura%20de%20pantalla%20de%202024-10-25%2015-42-53.png?raw=true)  
 
-**Instalación WordPress**
-(Es necesario curl)
+**Instalación WordPress**  
+(Es necesario curl)  
 apt install curl   
 
 apt install ghostscript \  
@@ -56,3 +56,5 @@ apt install ghostscript \
                  php-zip  
 
 # 3. Comprueba que puedes acceder a wordpress.   
+``http://localhost:8000/wp-admin/setup-config.php``  
+![WordPressImg](https://github.com/YoelGarciaLago/dockerEJ4/blob/main/Captura%20de%20pantalla%20de%202024-10-25%2016-15-24.png?raw=true)  
