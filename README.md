@@ -157,6 +157,9 @@ En este enlace te pedirá diferentes datos para conectarse a la base de datos, a
   /** Sets up WordPress vars and included files. */
   require_once ABSPATH . 'wp-settings.php';
 ```
-Después de esto te pedirá rellenar unos datos de usuario (que se pueden cambiar más adelante) 
+Después de esto te pedirá rellenar unos datos de usuario (que se pueden cambiar más adelante) y te saldrá esto:   
+![imagenWPIndex](https://github.com/YoelGarciaLago/dockerEJ4/blob/main/Captura%20de%20pantalla%20de%202024-10-28%2020-21-55.png?raw=true)   
+También puedes ver otras cosas dentro de WP como las actualizaciones:    
+![imagenLast](https://github.com/YoelGarciaLago/dockerEJ4/blob/main/Captura%20de%20pantalla%20de%202024-10-28%2020-24-47.png?raw=true)
 
 
