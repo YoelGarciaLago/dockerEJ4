@@ -59,8 +59,8 @@ apt install ghostscript \
 ``http://localhost:8000/wp-admin/setup-config.php``    
 ![WordPressImg](https://github.com/YoelGarciaLago/dockerEJ4/blob/main/Captura%20de%20pantalla%20de%202024-10-25%2016-15-24.png?raw=true)    
 En este enlace te pedirá diferentes datos para conectarse a la base de datos, aunque también puedes ir a esta ruta (/srv/www/wordpress/wp-config.php) y poner lo siguiente:   
-``
-<?php
+```
+  <?php
   /**
    * The base configuration for WordPress
      *
@@ -82,13 +82,13 @@ En este enlace te pedirá diferentes datos para conectarse a la base de datos, a
   
   // ** Database settings - You can get this info from your web host ** //
   /** The name of the database for WordPress */
-  define( 'DB_NAME', 'tu_BD' );
+  define( 'DB_NAME', 'wordpress' );
   
   /** Database username */
-  define( 'DB_USER', 'tu_usuario' );
+  define( 'DB_USER', 'anxo' );
   
   /** Database password */
-  define( 'DB_PASSWORD', 'tu_contraseña' );
+  define( 'DB_PASSWORD', '1234' );
   
   /** Database hostname */
   define( 'DB_HOST', 'localhost' );
@@ -156,4 +156,7 @@ En este enlace te pedirá diferentes datos para conectarse a la base de datos, a
   
   /** Sets up WordPress vars and included files. */
   require_once ABSPATH . 'wp-settings.php';
-``
+```
+Después de esto te pedirá rellenar unos datos de usuario (que se pueden cambiar más adelante) 
+
+
