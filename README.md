@@ -82,13 +82,13 @@ En este enlace te pedirá diferentes datos para conectarse a la base de datos, a
   
   // ** Database settings - You can get this info from your web host ** //
   /** The name of the database for WordPress */
-  define( 'DB_NAME', 'wordpress' );
+  define( 'DB_NAME', 'tu_db' );
   
   /** Database username */
-  define( 'DB_USER', 'anxo' );
+  define( 'DB_USER', 'tu_user' );
   
   /** Database password */
-  define( 'DB_PASSWORD', '1234' );
+  define( 'DB_PASSWORD', 'tu_passwd' );
   
   /** Database hostname */
   define( 'DB_HOST', 'localhost' );
